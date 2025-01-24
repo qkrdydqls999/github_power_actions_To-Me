@@ -1,5 +1,5 @@
 async function makeIssue() {
-    const token = process.env.GITHUB_TOKEN;
+    const token = process.env.GH_TOKEN; // 주의! 일치해야함 (env와 일치해야함)
     // 요고 1
     const OWNER = "qus0in"; // 여러분들의 github 계정 이름
     // 요고 2
